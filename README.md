@@ -6,7 +6,7 @@ Usage: tcli.py [-h] [-b BOARD] [-l LIST] [-n NAME] [-d DESCRIPTION] [-c CSV] <br
 Note: <br />
       You either have to provide board, list, card name and card description <br />
       or <br />
-      provide a CSV file in a (board,list,name,descreption) format.<br />
+      provide a CSV file in a (board,list,name,description) format.<br />
 
 ### There are two ways to run it:
 #### Manually by cloning the repo
