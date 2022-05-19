@@ -10,7 +10,7 @@ from tcli.constants import API_KEY, API_TOKEN, API_URL
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='Trello card creater')
+    parser = argparse.ArgumentParser(description='Trello card creater!')
     parser.add_argument("-b", "--board", help="Trello board to use", required=True)
     parser.add_argument("-l", "--list", help="In what list to create the card", required=True)
     parser.add_argument("-n", "--name", help="Name of the new card", required=True)
