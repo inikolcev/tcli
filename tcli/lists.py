@@ -1,5 +1,4 @@
 import requests
-import logging
 import sys
 
 from tcli.constants import API_KEY, API_TOKEN, API_URL

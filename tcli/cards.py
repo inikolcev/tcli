@@ -6,6 +6,7 @@ from tcli.constants import API_KEY, API_TOKEN, API_URL
 from tcli.lists import get_list_id
 
 
+
 def create_card(name, description, board_name, list_name):
 
     headers = {
@@ -21,3 +22,4 @@ def create_card(name, description, board_name, list_name):
     }
 
     response = requests.request("POST", API_URL + '/cards', headers=headers, params=query)
+    print("Card created!")
